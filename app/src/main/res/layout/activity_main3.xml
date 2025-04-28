@@ -7,4 +7,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity3">
 
+    <ImageView
+        android:id="@+id/dadi"
+        android:layout_width="265dp"
+        android:layout_height="281dp"
+        android:layout_marginBottom="172dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dice_face_1" />
+
+    <TextView
+        android:id="@+id/textViewRisultato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/dadi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

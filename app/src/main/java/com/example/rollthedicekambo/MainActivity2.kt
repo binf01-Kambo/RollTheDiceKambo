@@ -6,6 +6,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -27,6 +28,8 @@ class MainActivity2 : AppCompatActivity() {
             if(input != null){
                 if(input > 0 && input <=6)
                     intent(mioRandom, input)
+                val mioToast = Toast.makeText(this, "Dado lanciato!", Toast.LENGTH_LONG)
+                mioToast.show()
             }
         }
     }
