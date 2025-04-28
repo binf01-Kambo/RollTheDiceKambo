@@ -7,4 +7,41 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <TextView
+        android:id="@+id/textViewIndovina"
+        android:layout_width="202dp"
+        android:layout_height="63dp"
+        android:text="Indovina"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146" />
+
+    <EditText
+        android:id="@+id/numeroUtente"
+        android:layout_width="265dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="inserisci un numero tra 1 e 6"
+        android:inputType="number"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIndovina"
+        app:layout_constraintVertical_bias="0.418" />
+
+    <Button
+        android:id="@+id/btnRoll"
+        android:layout_width="153dp"
+        android:layout_height="68dp"
+        android:text="Lancia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numeroUtente" />
 </androidx.constraintlayout.widget.ConstraintLayout>

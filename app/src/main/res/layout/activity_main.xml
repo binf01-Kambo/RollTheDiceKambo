@@ -9,10 +9,10 @@
 
     <TextView
         android:id="@+id/textViewTitle"
-        android:layout_width="221dp"
-        android:layout_height="51dp"
+        android:layout_width="287dp"
+        android:layout_height="57dp"
         android:text="Roll The Dice"
-        android:textSize="34sp"
+        android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
